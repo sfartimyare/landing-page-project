@@ -15,6 +15,39 @@
     padding: 10px 20px;
 }
 
+
+.hero-container {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+   
+}
+
+.hero {
+    display: flex;
+    width: 300px;
+    
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.flex-item img {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    align-self: center;    
+}
+
 ul {
     display: flex;
     gap: 16px;
@@ -26,9 +59,7 @@ ul {
 
 .hero {
     display: flex;
-    background-color: #1f2937;
-    color: white;
-    height: 300px;
+    flex-direction: column;
 }
 
 
@@ -37,7 +68,6 @@ ul {
 .main-container {
     display: flex;
     height: 357px;
-    border: 3px solid purple;
     justify-content: center;
 }
 
@@ -56,4 +86,47 @@ ul {
     height: 100px;
 
     
+}
+
+.quote-container {
+    display: flex;
+    height: 35vh;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+    font-size: 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 0px 40px;
+    width: 600px;
+    
+}
+
+.quote2 {
+   display: flex;
+}
+
+.footer-container {
+    display: flex;
+    background-color: white;
+    color: white;
+    height: 15vh;
+    justify-content: center;
+    border: 4px solid brown;
+
+    
+}
+
+.footer {
+    display: flex;
+    border: 4px solid white;
+    align-items: center;
+    background-color: #4b316e;
 }
