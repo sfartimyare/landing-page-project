@@ -57,7 +57,6 @@ li {
 .navbar .flex {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .navbar ul {
@@ -81,7 +80,6 @@ li {
 
 .showcase {
     height: 300px;
-    border: 3px solid brown;
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -111,7 +109,7 @@ li {
 }
 
 .showcase input[type='email'] {
-  padding: 5px 70px 5px 7px;
+  padding: 12px 16px;
   font-size: 14px;
   border: none;
   border-radius: 6px;
@@ -120,11 +118,84 @@ li {
 }
 
 .btn {
-    padding: 5px 5px;
+    padding: 12px 20px;
     border: none;
     border-radius: 6px;
     margin-left: 5px;
-    cursor: none;
     box-shadow: 0 10px 10px black;
+    cursor: pointer;
+}
 
+.content {
+    /* border: 2px solid brown; */
+}
+
+
+.content .stats {
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+
+.content .flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .stat {
+    display: flex;
+    padding: 20px;
+    border: none;
+    border-radius: 6px;
+    margin: 5px;
+    flex-direction: column;
+    box-shadow: -7px -7px 20px rgba(0,0,0,0.2);
+}
+
+.inspiration {
+    background-color: #e5e7eb;
+}
+
+.inspiration .flex {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+.inspiration .quote {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    padding: 40px;
+    width: 900px;
+}
+
+.inspiration p {
+    display: flex;
+    align-self: flex-end;
+    padding-right: 100px;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    
+}
+
+.footer .flex {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.footertext {
+    padding-left: 30px;
+}
+
+.footer-btn {
+    margin-right: 100px;
 }
